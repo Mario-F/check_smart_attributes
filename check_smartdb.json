@@ -1233,6 +1233,66 @@
 			},
 			"Perfs" : ["5","184","187","194","197","199"]
 		},
+		"Seagate Desktop HDD.15" : {
+			"Device" : ["ST4000DM000-1F2168","ST8000DM004-2CX188"],
+			"ID#" : {
+				"1" : "VALUE", # Raw Read Error Rate
+				"5" : "RAW_VALUE", # Re-allocated Sector Count
+				"9" : "RAW_VALUE", # Power-On Hours Count
+				"12" : "RAW_VALUE", # Power Cycle Count
+				"183" : "RAW_VALUE", # Runtime_Bad_Block
+				"184" : "VALUE", # End-to-End Error Detection Count
+				"187" : "RAW_VALUE", # Uncorrectable Error Count
+				"190" : "RAW_VALUE", # Airflow_Temperature_Cel
+				"192" : "RAW_VALUE", # Power-Off Retract Count (Unsafe Shutdown Count)
+				"194" : "RAW_VALUE", # Temperature_Celsius
+				"197" : "RAW_VALUE", # Current_Pending_Sector
+				"198" : "RAW_VALUE", # Offline Uncorrectable
+				"199" : "RAW_VALUE", # UDMA_CRC_Error_Count
+				"240" : "RAW_VALUE", # Head flying hours
+				"241" : "RAW_VALUE", # Total LBAs Written (32MiB)
+				"242" : "RAW_VALUE" # Total LBAs Read (32MiB)
+			},
+			"Threshs" : {
+				"5" : ["0:","0"],
+				"184" : ["0:","0:"],
+				"187" : ["0","0"],
+				"194" : ["43","53"],
+				"197" : ["0","0"],
+				"199" : ["2","10"]
+			},
+			"Perfs" : ["1","5","9","12","183","184","187","190","192","194","197","198","199","240","241","242"]
+		},
+		"Seagate Momentus 7200.5" : {
+			"Device" : ["ST9750420AS"],
+			"ID#" : {
+				"1" : "VALUE", # Raw Read Error Rate
+				"5" : "RAW_VALUE", # Re-allocated Sector Count
+				"9" : "RAW_VALUE", # Power-On Hours Count
+				"12" : "RAW_VALUE", # Power Cycle Count
+				"183" : "RAW_VALUE", # Runtime_Bad_Block
+				"184" : "VALUE", # End-to-End Error Detection Count
+				"187" : "RAW_VALUE", # Uncorrectable Error Count
+				"190" : "RAW_VALUE", # Airflow_Temperature_Cel
+				"192" : "RAW_VALUE", # Power-Off Retract Count (Unsafe Shutdown Count)
+				"194" : "RAW_VALUE", # Temperature_Celsius
+				"197" : "RAW_VALUE", # Current_Pending_Sector
+				"198" : "RAW_VALUE", # Offline Uncorrectable
+				"199" : "RAW_VALUE", # UDMA_CRC_Error_Count
+				"240" : "RAW_VALUE", # Head flying hours
+				"241" : "RAW_VALUE", # Total LBAs Written (32MiB)
+				"242" : "RAW_VALUE" # Total LBAs Read (32MiB)
+			},
+			"Threshs" : {
+				"5" : ["0:","0"],
+				"184" : ["0:","0:"],
+				"187" : ["0","0"],
+				"194" : ["45","53"],
+				"197" : ["0","0"],
+				"199" : ["2","10"]
+			},
+			"Perfs" : ["1","5","9","12","183","184","187","190","192","194","197","198","199","240","241","242"]
+		},
 		"Samsung SM863" : {
 			"Device" : ["SAMSUNG MZ7KM240HAGR-00005"],
 			"ID#" : {
